@@ -1,0 +1,5 @@
+D:/Users/19765/Documents/C++Project/STL/cmake-build-debug/CMakeFiles/vector.dir
+D:/Users/19765/Documents/C++Project/STL/cmake-build-debug/CMakeFiles/string.dir
+D:/Users/19765/Documents/C++Project/STL/cmake-build-debug/CMakeFiles/template.dir
+D:/Users/19765/Documents/C++Project/STL/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Users/19765/Documents/C++Project/STL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
