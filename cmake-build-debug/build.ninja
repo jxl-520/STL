@@ -139,6 +139,72 @@ build template.exe: CXX_EXECUTABLE_LINKER__template_Debug CMakeFiles/template.di
   TARGET_IMPLIB = libtemplate.dll.a
   TARGET_PDB = template.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target class_template
+
+
+#############################################
+# Order-only phony target for class_template
+
+build cmake_object_order_depends_target_class_template: phony || CMakeFiles/class_template.dir
+
+build CMakeFiles/class_template.dir/class_template_test.cpp.obj: CXX_COMPILER__class_template_Debug D$:/Users/19765/Documents/C++Project/STL/class_template_test.cpp || cmake_object_order_depends_target_class_template
+  DEP_FILE = CMakeFiles\class_template.dir\class_template_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\class_template.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_template.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_template
+
+
+#############################################
+# Link the executable class_template.exe
+
+build class_template.exe: CXX_EXECUTABLE_LINKER__class_template_Debug CMakeFiles/class_template.dir/class_template_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_template.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_template.exe
+  TARGET_IMPLIB = libclass_template.dll.a
+  TARGET_PDB = class_template.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target person
+
+
+#############################################
+# Order-only phony target for person
+
+build cmake_object_order_depends_target_person: phony || CMakeFiles/person.dir
+
+build CMakeFiles/person.dir/person.cpp.obj: CXX_COMPILER__person_Debug D$:/Users/19765/Documents/C++Project/STL/person.cpp || cmake_object_order_depends_target_person
+  DEP_FILE = CMakeFiles\person.dir\person.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\person.dir
+  OBJECT_FILE_DIR = CMakeFiles\person.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target person
+
+
+#############################################
+# Link the executable person.exe
+
+build person.exe: CXX_EXECUTABLE_LINKER__person_Debug CMakeFiles/person.dir/person.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\person.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = person.exe
+  TARGET_IMPLIB = libperson.dll.a
+  TARGET_PDB = person.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -165,6 +231,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build class_template: phony class_template.exe
+
+build person: phony person.exe
+
 build string: phony string.exe
 
 build template: phony template.exe
@@ -179,7 +249,7 @@ build vector: phony vector.exe
 #############################################
 # Folder: D:/Users/19765/Documents/C++Project/STL/cmake-build-debug
 
-build all: phony vector.exe string.exe template.exe
+build all: phony vector.exe string.exe template.exe class_template.exe person.exe
 
 # =============================================================================
 # Built-in targets
