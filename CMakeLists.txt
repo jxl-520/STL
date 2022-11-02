@@ -4,7 +4,7 @@ project(STL)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(vector vector_test.cpp )
-add_executable(string string_tset.cpp)
+add_executable(string string_test.cpp)
 add_executable(template template_test.cpp)
 add_executable(class_template class_template_test.cpp)
 add_executable(person person.cpp)

@@ -82,8 +82,8 @@ build vector.exe: CXX_EXECUTABLE_LINKER__vector_Debug CMakeFiles/vector.dir/vect
 
 build cmake_object_order_depends_target_string: phony || CMakeFiles/string.dir
 
-build CMakeFiles/string.dir/string_tset.cpp.obj: CXX_COMPILER__string_Debug D$:/Users/19765/Documents/C++Project/STL/string_tset.cpp || cmake_object_order_depends_target_string
-  DEP_FILE = CMakeFiles\string.dir\string_tset.cpp.obj.d
+build CMakeFiles/string.dir/string_test.cpp.obj: CXX_COMPILER__string_Debug D$:/Users/19765/Documents/C++Project/STL/string_test.cpp || cmake_object_order_depends_target_string
+  DEP_FILE = CMakeFiles\string.dir\string_test.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\string.dir
   OBJECT_FILE_DIR = CMakeFiles\string.dir
@@ -96,7 +96,7 @@ build CMakeFiles/string.dir/string_tset.cpp.obj: CXX_COMPILER__string_Debug D$:/
 #############################################
 # Link the executable string.exe
 
-build string.exe: CXX_EXECUTABLE_LINKER__string_Debug CMakeFiles/string.dir/string_tset.cpp.obj
+build string.exe: CXX_EXECUTABLE_LINKER__string_Debug CMakeFiles/string.dir/string_test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\string.dir
