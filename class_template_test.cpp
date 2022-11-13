@@ -140,11 +140,53 @@ void test4() {
     Son2<int, char> S;
 }
 
+//类模板配合友元函数的类内和类外实现
+//全局函数类内实现：直接在类内声明有元即可
+//全局函数类外实现：需要提前让编译器知道全局函数的存在
+template<class T1,class T2> class School_report;
+
+template<class T1,class T2>
+void print_report2(School_report<T1,T2> &r){
+    cout<<"科目："<<r.subject<<" 分数："<<r.score<<endl;
+}
+
+template<class T1,class T2>
+class School_report{
+    // 类内实现
+    friend void print_report1(School_report<T1,T2> &r){
+        cout<<"科目："<<r.subject<<" 分数："<<r.score<<endl;
+    }
+    //类外实现
+    friend void print_report2<>(School_report<T1,T2> &r);
+public:
+    School_report(T1 subject,T2 score){
+        this->subject = subject;
+        this->score = score;
+    }
+    void print_report3(School_report<T1,T2> &r){
+        cout<<"科目："<<r.subject<<" 分数："<<r.score<<endl;
+    }
+private:
+    T1 subject;
+    T2 score;
+};
+
+
+
+void test5(){
+    School_report<string,int> R1("数学",83);
+    print_report1(R1);
+    R1.print_report3(R1);
+    print_report2(R1);
+
+}
+
 int main() {
 //    test1();
 //    test2();
 //    test3();
-    test4();
+//    test4();
+    test5();
     return 0;
 }
 

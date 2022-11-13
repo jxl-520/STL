@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MyArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyArray-Debug-c5018548430f20be8143.json",
+					"name" : "MyArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "class_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class_template-Debug-fe96972649bc48b1d7de.json",
+					"name" : "class_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo1-Debug-20b50d3cde9ff9c6467f.json",
+					"name" : "demo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deque_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deque_test-Debug-5ad30eaa762b10936846.json",
+					"name" : "deque_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list-Debug-b074526571ac681bece8.json",
+					"name" : "list",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map-Debug-9a855f6552deac6c44a2.json",
+					"name" : "map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_demo-Debug-9d1e028a5aee4c826e88.json",
+					"name" : "map_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "person::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-person-Debug-08fdc6c20cd612c6be16.json",
+					"name" : "person",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "queue_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-queue_test-Debug-9b472bf1d9b14aee11d8.json",
+					"name" : "queue_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set-Debug-d0082cbf0b2f05d4e5de.json",
+					"name" : "set",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stack_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stack_test-Debug-b22e251845026786b89f.json",
+					"name" : "stack_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string-Debug-e1a929950ead91cbdd3e.json",
+					"name" : "string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-template-Debug-4e71e7c8717ec813600b.json",
+					"name" : "template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector-Debug-7478cf5108543d814751.json",
+					"name" : "vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector_test2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector_test2-Debug-81dad1d5b05707bea55a.json",
+					"name" : "vector_test2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Users/19765/Documents/C++Project/STL/cmake-build-debug",
+		"source" : "D:/Users/19765/Documents/C++Project/STL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

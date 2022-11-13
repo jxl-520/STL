@@ -205,6 +205,336 @@ build person.exe: CXX_EXECUTABLE_LINKER__person_Debug CMakeFiles/person.dir/pers
   TARGET_IMPLIB = libperson.dll.a
   TARGET_PDB = person.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target MyArray
+
+
+#############################################
+# Order-only phony target for MyArray
+
+build cmake_object_order_depends_target_MyArray: phony || CMakeFiles/MyArray.dir
+
+build CMakeFiles/MyArray.dir/MyArray.cpp.obj: CXX_COMPILER__MyArray_Debug D$:/Users/19765/Documents/C++Project/STL/MyArray.cpp || cmake_object_order_depends_target_MyArray
+  DEP_FILE = CMakeFiles\MyArray.dir\MyArray.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\MyArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MyArray
+
+
+#############################################
+# Link the executable MyArray.exe
+
+build MyArray.exe: CXX_EXECUTABLE_LINKER__MyArray_Debug CMakeFiles/MyArray.dir/MyArray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MyArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MyArray.exe
+  TARGET_IMPLIB = libMyArray.dll.a
+  TARGET_PDB = MyArray.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_test2
+
+
+#############################################
+# Order-only phony target for vector_test2
+
+build cmake_object_order_depends_target_vector_test2: phony || CMakeFiles/vector_test2.dir
+
+build CMakeFiles/vector_test2.dir/vector_test2.cpp.obj: CXX_COMPILER__vector_test2_Debug D$:/Users/19765/Documents/C++Project/STL/vector_test2.cpp || cmake_object_order_depends_target_vector_test2
+  DEP_FILE = CMakeFiles\vector_test2.dir\vector_test2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\vector_test2.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_test2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_test2
+
+
+#############################################
+# Link the executable vector_test2.exe
+
+build vector_test2.exe: CXX_EXECUTABLE_LINKER__vector_test2_Debug CMakeFiles/vector_test2.dir/vector_test2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_test2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_test2.exe
+  TARGET_IMPLIB = libvector_test2.dll.a
+  TARGET_PDB = vector_test2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deque_test
+
+
+#############################################
+# Order-only phony target for deque_test
+
+build cmake_object_order_depends_target_deque_test: phony || CMakeFiles/deque_test.dir
+
+build CMakeFiles/deque_test.dir/deque_test.cpp.obj: CXX_COMPILER__deque_test_Debug D$:/Users/19765/Documents/C++Project/STL/deque_test.cpp || cmake_object_order_depends_target_deque_test
+  DEP_FILE = CMakeFiles\deque_test.dir\deque_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\deque_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\deque_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deque_test
+
+
+#############################################
+# Link the executable deque_test.exe
+
+build deque_test.exe: CXX_EXECUTABLE_LINKER__deque_test_Debug CMakeFiles/deque_test.dir/deque_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deque_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deque_test.exe
+  TARGET_IMPLIB = libdeque_test.dll.a
+  TARGET_PDB = deque_test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo1
+
+
+#############################################
+# Order-only phony target for demo1
+
+build cmake_object_order_depends_target_demo1: phony || CMakeFiles/demo1.dir
+
+build CMakeFiles/demo1.dir/demo1.cpp.obj: CXX_COMPILER__demo1_Debug D$:/Users/19765/Documents/C++Project/STL/demo1.cpp || cmake_object_order_depends_target_demo1
+  DEP_FILE = CMakeFiles\demo1.dir\demo1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\demo1.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo1
+
+
+#############################################
+# Link the executable demo1.exe
+
+build demo1.exe: CXX_EXECUTABLE_LINKER__demo1_Debug CMakeFiles/demo1.dir/demo1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo1.exe
+  TARGET_IMPLIB = libdemo1.dll.a
+  TARGET_PDB = demo1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stack_test
+
+
+#############################################
+# Order-only phony target for stack_test
+
+build cmake_object_order_depends_target_stack_test: phony || CMakeFiles/stack_test.dir
+
+build CMakeFiles/stack_test.dir/stack_test.cpp.obj: CXX_COMPILER__stack_test_Debug D$:/Users/19765/Documents/C++Project/STL/stack_test.cpp || cmake_object_order_depends_target_stack_test
+  DEP_FILE = CMakeFiles\stack_test.dir\stack_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\stack_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack_test
+
+
+#############################################
+# Link the executable stack_test.exe
+
+build stack_test.exe: CXX_EXECUTABLE_LINKER__stack_test_Debug CMakeFiles/stack_test.dir/stack_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stack_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stack_test.exe
+  TARGET_IMPLIB = libstack_test.dll.a
+  TARGET_PDB = stack_test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target queue_test
+
+
+#############################################
+# Order-only phony target for queue_test
+
+build cmake_object_order_depends_target_queue_test: phony || CMakeFiles/queue_test.dir
+
+build CMakeFiles/queue_test.dir/queue_test.cpp.obj: CXX_COMPILER__queue_test_Debug D$:/Users/19765/Documents/C++Project/STL/queue_test.cpp || cmake_object_order_depends_target_queue_test
+  DEP_FILE = CMakeFiles\queue_test.dir\queue_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\queue_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\queue_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target queue_test
+
+
+#############################################
+# Link the executable queue_test.exe
+
+build queue_test.exe: CXX_EXECUTABLE_LINKER__queue_test_Debug CMakeFiles/queue_test.dir/queue_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\queue_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = queue_test.exe
+  TARGET_IMPLIB = libqueue_test.dll.a
+  TARGET_PDB = queue_test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list
+
+
+#############################################
+# Order-only phony target for list
+
+build cmake_object_order_depends_target_list: phony || CMakeFiles/list.dir
+
+build CMakeFiles/list.dir/list_test.cpp.obj: CXX_COMPILER__list_Debug D$:/Users/19765/Documents/C++Project/STL/list_test.cpp || cmake_object_order_depends_target_list
+  DEP_FILE = CMakeFiles\list.dir\list_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\list.dir
+  OBJECT_FILE_DIR = CMakeFiles\list.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list
+
+
+#############################################
+# Link the executable list.exe
+
+build list.exe: CXX_EXECUTABLE_LINKER__list_Debug CMakeFiles/list.dir/list_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list.exe
+  TARGET_IMPLIB = liblist.dll.a
+  TARGET_PDB = list.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set
+
+
+#############################################
+# Order-only phony target for set
+
+build cmake_object_order_depends_target_set: phony || CMakeFiles/set.dir
+
+build CMakeFiles/set.dir/set_test.cpp.obj: CXX_COMPILER__set_Debug D$:/Users/19765/Documents/C++Project/STL/set_test.cpp || cmake_object_order_depends_target_set
+  DEP_FILE = CMakeFiles\set.dir\set_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\set.dir
+  OBJECT_FILE_DIR = CMakeFiles\set.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set
+
+
+#############################################
+# Link the executable set.exe
+
+build set.exe: CXX_EXECUTABLE_LINKER__set_Debug CMakeFiles/set.dir/set_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set.exe
+  TARGET_IMPLIB = libset.dll.a
+  TARGET_PDB = set.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map
+
+
+#############################################
+# Order-only phony target for map
+
+build cmake_object_order_depends_target_map: phony || CMakeFiles/map.dir
+
+build CMakeFiles/map.dir/map_test.cpp.obj: CXX_COMPILER__map_Debug D$:/Users/19765/Documents/C++Project/STL/map_test.cpp || cmake_object_order_depends_target_map
+  DEP_FILE = CMakeFiles\map.dir\map_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\map.dir
+  OBJECT_FILE_DIR = CMakeFiles\map.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map
+
+
+#############################################
+# Link the executable map.exe
+
+build map.exe: CXX_EXECUTABLE_LINKER__map_Debug CMakeFiles/map.dir/map_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map.exe
+  TARGET_IMPLIB = libmap.dll.a
+  TARGET_PDB = map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map_demo
+
+
+#############################################
+# Order-only phony target for map_demo
+
+build cmake_object_order_depends_target_map_demo: phony || CMakeFiles/map_demo.dir
+
+build CMakeFiles/map_demo.dir/map_demo.cpp.obj: CXX_COMPILER__map_demo_Debug D$:/Users/19765/Documents/C++Project/STL/map_demo.cpp || cmake_object_order_depends_target_map_demo
+  DEP_FILE = CMakeFiles\map_demo.dir\map_demo.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\map_demo.dir
+  OBJECT_FILE_DIR = CMakeFiles\map_demo.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map_demo
+
+
+#############################################
+# Link the executable map_demo.exe
+
+build map_demo.exe: CXX_EXECUTABLE_LINKER__map_demo_Debug CMakeFiles/map_demo.dir/map_demo.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map_demo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map_demo.exe
+  TARGET_IMPLIB = libmap_demo.dll.a
+  TARGET_PDB = map_demo.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -231,15 +561,35 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build MyArray: phony MyArray.exe
+
 build class_template: phony class_template.exe
 
+build demo1: phony demo1.exe
+
+build deque_test: phony deque_test.exe
+
+build list: phony list.exe
+
+build map: phony map.exe
+
+build map_demo: phony map_demo.exe
+
 build person: phony person.exe
+
+build queue_test: phony queue_test.exe
+
+build set: phony set.exe
+
+build stack_test: phony stack_test.exe
 
 build string: phony string.exe
 
 build template: phony template.exe
 
 build vector: phony vector.exe
+
+build vector_test2: phony vector_test2.exe
 
 # =============================================================================
 # Folder targets.
@@ -249,7 +599,7 @@ build vector: phony vector.exe
 #############################################
 # Folder: D:/Users/19765/Documents/C++Project/STL/cmake-build-debug
 
-build all: phony vector.exe string.exe template.exe class_template.exe person.exe
+build all: phony vector.exe string.exe template.exe class_template.exe person.exe MyArray.exe vector_test2.exe deque_test.exe demo1.exe stack_test.exe queue_test.exe list.exe set.exe map.exe map_demo.exe
 
 # =============================================================================
 # Built-in targets
